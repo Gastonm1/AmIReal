@@ -49,11 +49,11 @@ function App() {
         )}
         {realImage && (
           <a href="javascript" onClick={realImageSelected}>
-            <img src={realImage} alt="Img" />
+            <img className="realImage" src={realImage} alt="Img" />
           </a>
         )}
       </div>
-      <button type="button" onClick={getAIPhoto}>
+      <button className="generateButton" type="button" onClick={getAIPhoto}>
         Generate New Photos
       </button>
     </div>
