@@ -44,7 +44,7 @@ function App() {
         {aiImage && (
           <a href="javascript" onClick={aiImageSelected}>
             {" "}
-            <img src={aiImage} alt="Img" />
+            <img className="aiImage" src={aiImage} alt="Img" />
           </a>
         )}
         {realImage && (
